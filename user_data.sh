@@ -20,5 +20,5 @@ define('DB_PASSWORD', '${password}');
 define('DB_DATABASE', '${dbname}');
 ?>" > dbinfo.inc
 
-sudo git clone https://github.com/arin7637/terraform-code-rds.git && cd terraform-code-rds
+sudo git clone https://github.com/developer37/edurekacloud-code-rds.git && cd edurekacloud-code-rds
 sudo cp SamplePage.php index.html  /var/www/html/
