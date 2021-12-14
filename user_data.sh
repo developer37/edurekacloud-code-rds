@@ -15,9 +15,9 @@ mkdir inc
 cd inc
 echo "<?php
 define('DB_SERVER', '${rds_endpoint}');
-define('DB_USERNAME', '${user}');
-define('DB_PASSWORD', '${password}');
-define('DB_DATABASE', '${dbname}');
+define('DB_USERNAME', 'testdb');
+define('DB_PASSWORD', 'welcome123');
+define('DB_DATABASE', 'newdb');
 ?>" > dbinfo.inc
 
 sudo git clone https://github.com/developer37/edurekacloud-code-rds.git && cd edurekacloud-code-rds
